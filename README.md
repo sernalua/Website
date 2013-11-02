@@ -1,6 +1,7 @@
-Website
-=======
+About
+-----
 
-Website is under heavy development
-
-Mike is adding his name
+Developers
+----------
+Dylan Allbee
+Mike Korcha
