@@ -1,5 +1,10 @@
+# Project Files
+venv
+tmp/*
 *.py[cod]
-venv/
+*~
+*.swp
+*.swo
 
 # C extensions
 *.so
