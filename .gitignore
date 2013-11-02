@@ -2,7 +2,9 @@
 venv
 tmp/*
 *.py[cod]
-~*
+*~
+*.swp
+*.swo
 
 # C extensions
 *.so
