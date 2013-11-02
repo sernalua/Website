@@ -1,5 +1,8 @@
+# Project Files
+venv
+tmp/*
 *.py[cod]
-venv/
+~*
 
 # C extensions
 *.so
