@@ -1,2 +1,1 @@
-__all__ = ['pages']
-
+__all__ = ['pages', 'users']
