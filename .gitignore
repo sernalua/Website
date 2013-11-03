@@ -5,6 +5,7 @@ tmp/*
 *~
 *.swp
 *.swo
+reload.uwsgi
 
 # C extensions
 *.so
