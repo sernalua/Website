@@ -1,4 +1,5 @@
-from app import app
+from app.bootstrap import create_app
 
 if __name__ == "__main__":
+    app = create_app()
     app.run(debug = True)
