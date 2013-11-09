@@ -7,3 +7,4 @@ This is the development repository for the in-progress site for the Computer Sci
 1. Dylan Allbee
 2. Mike Korcha
 3. Andrew Brinker
+4. Cory Cook
