@@ -1,6 +1,5 @@
 from flask import Flask
 from flask import Blueprint
-from flaskext.markdown import Markdown
 from . import blueprints
 import importlib
 
