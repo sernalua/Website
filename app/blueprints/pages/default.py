@@ -1,11 +1,13 @@
 from flask import Blueprint
+from flask.ext.misaka import markdown
 
 blueprint = Blueprint('pages', __name__)
 
 @blueprint.route('/', defaults={'path': ''})
 @blueprint.route('/<path:path>')
 def page(path):
-	return path
+	f = open('../../frontend/content/' + path + '.md', 'r')
+	return markdown(f.read())
 
 @blueprint.route('/')
 def index():
