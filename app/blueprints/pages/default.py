@@ -6,8 +6,8 @@ blueprint = Blueprint('pages', __name__)
 @blueprint.route('/', defaults={'path': ''})
 @blueprint.route('/<path:path>')
 def page(path):
-	f = open('../../frontend/content/' + path + '.md', 'r')
-	return f.read()
+	#f = open('../../frontend/content/' + path + '.md', 'r')
+	return path
 
 @blueprint.route('/')
 def index():
