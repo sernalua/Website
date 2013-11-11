@@ -2,6 +2,10 @@ from flask import Blueprint
 
 blueprint = Blueprint('pages', __name__)
 
+@blueprint.route('/', defaults={'path': ''})
+@blueprint.route('/<path:path>')
+def page(path):
+	return path
 
 @blueprint.route('/')
 def index():
