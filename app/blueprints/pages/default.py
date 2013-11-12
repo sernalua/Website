@@ -9,6 +9,7 @@ blueprint = Blueprint('pages', __name__)
 def page(path):
 	#f = open('../../frontend/content/' + path + '.md')
 	#return markdown(f.read())
+	f = open('app/frontend/content/test.md')
 	return os.getcwd()
 
 @blueprint.route('/')
