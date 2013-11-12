@@ -10,8 +10,8 @@ def page(path):
 	#f = open('../../frontend/content/' + path + '.md')
 	#return markdown(f.read())
 	f = open('app/frontend/content/test.md')
-	return f.read()
-	
+	return markdown(f.read())
+
 @blueprint.route('/')
 def index():
     return "Hello, World! It works. Now Mike tests to make sure his server instance works."
