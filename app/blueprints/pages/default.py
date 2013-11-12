@@ -8,8 +8,8 @@ blueprint = Blueprint('pages', __name__)
 @blueprint.route('/<path:path>')
 def page(path):
 	try:
-		with(f = open('app/frontend/content/' + path + '.md'))
-			return markdown(f.read())
+		f = open('app/frontend/content/' + path + '.md')
+		return markdown(f.read())
 	except IOError:
 		abort(404)
 
