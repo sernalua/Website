@@ -7,9 +7,7 @@ blueprint = Blueprint('pages', __name__)
 @blueprint.route('/', defaults={'path': ''})
 @blueprint.route('/<path:path>')
 def page(path):
-	#f = open('../../frontend/content/' + path + '.md')
-	#return markdown(f.read())
-	f = open('app/frontend/content/test.md')
+	f = open('app/frontend/content/' + path + '.md')
 	return markdown(f.read())
 
 @blueprint.route('/')
