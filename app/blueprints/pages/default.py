@@ -1,5 +1,6 @@
 from flask import Blueprint
 from flask.ext.misaka import markdown
+import os
 
 blueprint = Blueprint('pages', __name__)
 
