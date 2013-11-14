@@ -5,6 +5,6 @@ This is the development repository for the in-progress site for the Computer Sci
 # Developers
 
 1. Dylan Allbee
-2. Mike Korcha
+2. Mike Korcha (rocks)
 3. Andrew Brinker
 4. Cory Cook

@@ -4,6 +4,7 @@ Flask-Genshi==0.5.1
 Flask-Mail==0.9.0
 Flask-SQLAlchemy==1.0
 Flask-WTF==0.9.3
+Flask-Misaka
 Genshi==0.7
 Jinja2==2.7.1
 MarkupSafe==0.18
