@@ -1,0 +1,1 @@
+Computer Science & Engineering Club is a club at CSU, San Bernardino devoted to computer science, computer engineering, and computer systems. Interested in us? Feel free to checkout our Facebook Group or our Google Group or GitHub account. We also have a page on the CSE Department website. The club office is in Jack Brown room 540.

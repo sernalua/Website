@@ -1,1 +1,1 @@
-__all__ = ['pages', 'users']
+__all__ = ['calendar']
