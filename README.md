@@ -1,3 +1,4 @@
+	url = https://github.com/rflynet/Tuesdaytrader.com.git
 # About
 
 This is the development repository for the in-progress site for the Computer Science and Engineering Club at CSU, San Bernardino.
@@ -10,3 +11,4 @@ This is the development repository for the in-progress site for the Computer Sci
 4. Cory Cook
 5. Juan Nevares
 6. Abigail Legg
+7. Russell Morgan
