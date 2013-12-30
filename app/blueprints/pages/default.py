@@ -1,15 +1,12 @@
-from flask import Blueprint, abort
-from flask.ext.misaka import markdown
-import os
+from flask import Blueprint, abort, render_template
+from app.lib.HttpApplication import render_markdown
 
 blueprint = Blueprint('pages', __name__)
-
 
 @blueprint.route('/', defaults={'path': 'index'})
 @blueprint.route('/<path:path>')
 def page(path):
     try:
-        f = open('app/frontend/content/' + path + '.md')
-        return markdown(f.read())
-    except IOError:
+        return render_template('default.html', content = render_markdown(path.strip(' /') + '.md'), title = path)
+    except IOError, e:
         abort(404)

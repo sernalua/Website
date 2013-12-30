@@ -10,7 +10,7 @@ Violets are blue
 
 The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:
 
-Roses are red
+Roses are red  
 Violets are blue
 
 Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.
@@ -74,7 +74,6 @@ Some people seem to like definition lists
 <dl>
   <dt>Lower cost</dt>
   <dd>The new version of this product costs significantly less than the previous one!</dd>
-  <dt>Easier to use</dt>
   <dd>We've changed the product so that it's much easier to use!</dd>
 </dl>
 
@@ -96,6 +95,7 @@ How about we throw some angle braces and ampersands in there?
     </div>
 
 Set in stone
+  <dt>Easier to use</dt>
 ------------
 
 Preformatted blocks are useful for ASCII art:
