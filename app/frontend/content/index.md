@@ -62,7 +62,7 @@ about computer science and engineering. The current projects are:
 Temporary Office Hours
 ----------------------
 
-<table class="table table-bordered table-striped">
+<table class="table table-bordered table-striped table-hover">
     <tr>
         <th>Day</th><th>Time</th>
 	</tr>
@@ -104,7 +104,7 @@ Temporary Office Hours
 Tutoring Schedule
 -----------------
 
-<table class="table table-bordered table-striped">
+<table class="table table-bordered table-striped table-hover">
     <tr>
         <th>Tutor</th><th>Classes</th><th>Hours</th>
 	</tr>

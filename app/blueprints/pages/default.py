@@ -1,5 +1,5 @@
 from flask import Blueprint, abort, render_template
-from app.lib.HttpApplication import render_markdown
+from app.lib.http_application import render_markdown
 
 blueprint = Blueprint('pages', __name__)
 

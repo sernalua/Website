@@ -1,0 +1,10 @@
+{% extends('layout.html') %}
+{% block content %}
+{{ content }}
+<p id="error" class="error">{{ error }}</p>
+{% endblock %}
+{% block scripts %}
+<script>    
+    require(['{{ path }}']);
+</script>
+{% endblock %}
