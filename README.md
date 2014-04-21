@@ -1,4 +1,3 @@
-	url = https://github.com/rflynet/Tuesdaytrader.com.git
 # About
 
 This is the development repository for the in-progress site for the Computer Science and Engineering Club at CSU, San Bernardino.
